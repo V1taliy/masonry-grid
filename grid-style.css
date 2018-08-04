@@ -48,3 +48,28 @@ img {
         width:  200px;
         height: 100px;
         }
+
+        /*FLEXbox ==========================================*/
+
+        .card-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            align-items: flex-start;
+            background-color: #888;
+          }
+          
+          .card {
+            width: 25%;
+            margin: 1rem;
+            flex: 1 0 auto;
+            background-color: white;
+            padding: .5rem;
+          }
+          .img-full {
+            width: 100%;
+          }
+          
+          strong {
+            font-weight: 900;
+          }
